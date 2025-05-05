@@ -28,7 +28,7 @@ This solution leverages **SecureGPT** for intelligent classification and decisio
 
 The following diagram illustrates the flow of data and interactions between the components of the system:
 
-![Data Flow Diagram](dataflow.svg)
+![Data Flow Diagram](data.svg)
 
 ---
 
