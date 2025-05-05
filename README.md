@@ -18,13 +18,13 @@ Our solution improves IT service responsiveness, ensures SLA compliance, and enh
 
 ---
 
-## 🧠 Solution Overview
+## Solution Overview
 
 This solution leverages **SecureGPT** for intelligent classification and decision-making. It is deployed as a **modular, serverless pipeline on AWS**, triggered through S3 events and manual invocations, allowing real-time processing and alerting without human intervention.
 
 ---
 
-## 📊 Data Flow Diagram
+##  Data Flow Diagram
 
 The following diagram illustrates the flow of data and interactions between the components of the system:
 
@@ -32,7 +32,7 @@ The following diagram illustrates the flow of data and interactions between the 
 
 ---
 
-### 🔄 Workflow Components
+###  Workflow Components
 
 1. **Jira Ticket Ingestion**  
    Tickets are retrieved from Jira Cloud using the Jira REST API.
@@ -53,7 +53,7 @@ The following diagram illustrates the flow of data and interactions between the 
 
 ---
 
-## 🔐 Deployment and Security
+## Deployment and Security
 
 - All modules are deployed as **AWS Lambda functions** with **event-driven automation** via S3 triggers.
 - All credentials and tokens are securely handled via **environment variables**.
