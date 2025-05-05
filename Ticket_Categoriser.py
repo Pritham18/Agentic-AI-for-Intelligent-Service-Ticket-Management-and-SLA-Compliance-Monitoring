@@ -18,12 +18,12 @@ warnings.filterwarnings("ignore")
 # Configuration Variables
 # ----------------------------
 JIRA_DOMAIN = os.environ.get("SOURCE_JIRA_DOMAIN", "securegpt-agenticai.atlassian.net") ##'secure-agenticai.atlassian.net'
-JIRA_EMAIL = os.environ.get("SOURCE_JIRA_EMAIL", "sbharadv@gmu.edu")
-JIRA_API_TOKEN = os.environ.get("SOURCE_JIRA_API_TOKEN", "ATATT3xFfGF0XdGk4mdazwbHzqCwdaY6uih3Rt0d5VeTiGWRPKq0WBZu0GcEwGtUz2jltwpHr-zneQHcyYJxI1-fkB3XcYb-vm3TzxVSkbU9S6Idyhr4xK9QPMHo4dLfhA_LKl47JW50dl3nxuyPwhNwZz1fIcAqJA0B6NHAoSxwUnuintUzQm0=B6804665")
+JIRA_EMAIL = os.environ.get("SOURCE_JIRA_EMAIL", "") #email
+JIRA_API_TOKEN = os.environ.get("SOURCE_JIRA_API_TOKEN", "") #input token
 PROJECT_KEY = os.environ.get("SOURCE_PROJECT_KEY", "Secure-AgenticAI")
 
 SECUREGPT_URL = os.environ.get("SECUREGPT_URL", "https://tis.accure.ai:9001")
-SECUREGPT_TOKEN = os.environ.get("SECUREGPT_TOKEN", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoic2Fuc2FyaSIsImV4cCI6MTc5NjMxMDQ0NH0.FgFpk64W54Uoai0mEv8rZdQtOgaBC7j_pa2Bd7VLJjE")
+SECUREGPT_TOKEN = os.environ.get("SECUREGPT_TOKEN", "")#input token
 SECUREGPT_ORG = os.environ.get("SECUREGPT_ORG", "1740434887629_TicketMasters")
 
 TICKETS_LIMIT = 55
