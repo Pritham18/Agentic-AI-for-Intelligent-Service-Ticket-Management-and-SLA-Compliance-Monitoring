@@ -22,6 +22,12 @@ Our solution improves IT service responsiveness, ensures SLA compliance, and enh
 
 This solution leverages **SecureGPT** for intelligent classification and decision-making. It is deployed as a **modular, serverless pipeline on AWS**, triggered through S3 events and manual invocations, allowing real-time processing and alerting without human intervention.
 
+
+We have provided the prompts to generate the specific code modules:
+
+1. **Ticket Categoriser** — [Ticket_categoriser_prompt.txt](./Ticket_categoriser_prompt.txt)  
+2. **SLA Monitor** — [Sla_monitor_prompt.txt](./Sla_monitor_prompt.txt)  
+3. **Email Sender** — [Email_sender_prompt.txt](./Email_sender_prompt.txt)
 ---
 
 ##  Data Flow Diagram
