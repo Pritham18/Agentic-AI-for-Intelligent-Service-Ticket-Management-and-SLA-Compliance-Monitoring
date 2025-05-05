@@ -1,4 +1,4 @@
-# DEAN690_team_ATM - Team Agentic Ticket Masters
+# DEAN690_Capstone Project - Agentic AI for Intelligent Service Ticket Management and SLA Compliance Monitoring
 
 ## Introduction  
 
