@@ -68,7 +68,7 @@ The following diagram illustrates the flow of data and interactions between the 
 
 ---
 
-## 📁 Code Modules
+## Code Modules
 
 | Script                | Description                                                   |
 |------------------------|---------------------------------------------------------------|
@@ -78,7 +78,7 @@ The following diagram illustrates the flow of data and interactions between the 
 
 ---
 
-## 🧪 Local Testing
+##Local Testing
 
 Ensure environment variables are set or `.env` file is loaded, then run:
 
